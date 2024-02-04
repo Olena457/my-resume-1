@@ -52,6 +52,10 @@ body {
 .project-link {
   margin-left: 10px;
 }
+.project-link:hover,
+:focus {
+  color: #fb6d3a;
+}
 .project {
   color: #595959;
 }
@@ -90,9 +94,10 @@ body {
 .wrapper-organization {
   margin-bottom: 20px;
 }
-/* .wrapper-org-block {
+.wrapper-organization-block {
   margin-bottom: 50px;
-} */
+}
+
 .wrapper-education {
   margin-bottom: 20px;
 }
@@ -110,9 +115,10 @@ body {
 /* SIDEBAR */
 .aside-wrapper {
   padding-top: 40px;
-
   width: 380px;
-  background-color: #1e2939;
+  /* background-color: #1e2939; */
+  background-image: linear-gradient(135deg, #034e5d 0%, #130018 100%);
+  /* background-image: linear-gradient(135deg, #090013 0%, #052f98 100%); */
 }
 
 .photo {
@@ -162,6 +168,9 @@ body {
   text-align: left;
   color: #ffffff;
   opacity: 50%;
+}
+.contacts:hover {
+  color: #fb6d3a;
 }
 
 .address {
